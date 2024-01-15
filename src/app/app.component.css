@@ -1,0 +1,55 @@
+.container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .seats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    margin: 5px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .available {
+    background-color: #8af28a; /* Green */
+  }
+  
+  .booked {
+    background-color: #f28a8a; /* Red */
+  }
+  
+  .reserve-form {
+    margin-top: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input {
+    margin-right: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+
+ 
